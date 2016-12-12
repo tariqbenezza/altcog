@@ -4,6 +4,7 @@
   "description": "A small twitter bot to inform people about a real estate lies",
   "main": "bot.js",
   "scripts": {
+    "start" : "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
