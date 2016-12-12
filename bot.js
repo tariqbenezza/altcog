@@ -1,5 +1,4 @@
 var Twit = require('twit')
-var app = Twit()
 
 var T = new Twit({
   consumer_key:         process.env.CONSUMER_KEY,
@@ -25,8 +24,3 @@ stream.on('tweet', function (tweet) {
       console.log(data)
   });
 })
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Our app is running on port ${ PORT }`);
-});
