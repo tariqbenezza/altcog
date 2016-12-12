@@ -1,4 +1,5 @@
 var Twit = require('twit')
+var app = Twit()
 
 var T = new Twit({
   consumer_key:         process.env.CONSUMER_KEY,
